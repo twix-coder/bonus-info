@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реферальная система</title>
+    <style>
+        body {
+            background-color: #1c1c1e;
+            color: #eaeaea;
+            font-family: monospace;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ffcc66;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #ffcc66;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #2a2a2d;
+            padding: 10px;
+            margin: 5px 0;
+            border-left: 4px solid #d79e3c;
+        }
+        .note {
+            font-style: italic;
+            color: #b8b0a0;
+            margin-top: 20px;
+            border-top: 1px dashed #ffcc66;
+            padding-top: 10px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        * {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Реферальная система</h1>
+
+    <h2>1. Скидка за приглашение друга</h2>
+    <ul>
+        <li>Приведи друга – получи 12,5% скидку на следующий урок.</li>
+        <li>Приведи 2 друзей – скидка 25%.</li>
+        <li>Приведи 3 друзей – скидка 50%.</li>
+        <li>Приведи 4 друзей – бесплатный урок.</li>
+    </ul>
+
+    <h2>2. Абонементы (предоплата за несколько уроков)</h2>
+    <ul>
+        <li>4 урока – стандартная цена.</li>
+        <li>8 уроков – скидка 5%.</li>
+        <li>12 уроков – скидка 10%.</li>
+    </ul>
+
+    <h2>3. Групповые занятия</h2>
+    <ul>
+        <li>Для двух учеников – цена снижена на 10% каждому.</li>
+        <li>Для трёх учеников – цена снижена на 15% каждому.</li>
+    </ul>
+
+    <h2>4. Бонус за долгосрочное обучение</h2>
+    <ul>
+        <li>Если ученик занимается 3 месяца подряд, получает 1 бесплатный урок.</li>
+    </ul>
+
+    <h2>5. Эксклюзивный бонус за 5 приглашённых учеников</h2>
+    <ul>
+        <li>Если ученик привёл 5 друзей, получает месяц занятий бесплатно.</li>
+    </ul>
+
+    <h2>Условия действия реферальной системы:</h2>
+    <ul>
+        <li>Скидка применяется к следующему уроку после оплаты приглашённого друга.</li>
+        <li>Друг должен оплатить хотя бы 1 урок.</li>
+        <li>Скидки не суммируются, но ученик может выбрать наибольшую доступную.</li>
+        <li>Абонементы и групповые занятия нельзя комбинировать с реферальной скидкой.</li>
+    </ul>
+
+    <!-- <p class="note">Подробности уточняйте перед оплатой.</p> -->
+</body>
+</html>
